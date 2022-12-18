@@ -185,15 +185,13 @@ header .bar span{
 }
 
 header .bar span.first{
-    rotate: 230deg;
-    transform: translateY(-4px);
+    transform: rotate(230deg) translateY(-4px);
 }
 header .bar span.mid{
     display: none;
 }
 header .bar span.last{
-    rotate: -230deg;
-    transform: translateY(5px);
+    transform: rotate(-230deg) translateY(5px);
 }
 
 .hero-section{
