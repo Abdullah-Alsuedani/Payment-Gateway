@@ -34,6 +34,12 @@ html{
 }
 
 @media (max-width: 768px) {
+    .main-desc{
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 768px) {
     p{
         font-size: 14px;
     }
